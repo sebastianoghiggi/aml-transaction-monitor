@@ -1,0 +1,26 @@
+transaction_id,customer_id,date,amount,transaction_type,destination_country,alert_type,severity
+6f5769f2-5d60-48f5-9801-fd2b56ae2c99,CUST-3884,2024-12-21 00:21:00,5036.55,wire_transfer,SY,High-Risk Country Wire,CRITICAL
+110d5ba8-7cde-401c-97c0-b71bbff5d6d4,CUST-5726,2024-06-12 08:52:00,6947.18,wire_transfer,KP,High-Risk Country Wire,CRITICAL
+7b723aed-363c-4290-b576-daf8a0bb9bdb,CUST-8851,2024-09-14 21:57:00,6316.8,wire_transfer,IR,High-Risk Country Wire,CRITICAL
+c439b9c0-b97a-45ef-b23b-be5e497ad102,CUST-1211,2024-01-04 13:01:00,10824.94,wire_transfer,KP,Large Cash Transaction,HIGH
+d68205c8-40d8-43ac-9512-47dabaff1b17,CUST-8723,2024-04-10 23:57:00,18663.98,wire_transfer,IR,Large Cash Transaction,HIGH
+f4d68b6e-95ad-4ff9-84cc-ed7dd6167c21,CUST-8851,2024-01-07 22:08:00,38060.28,deposit,US,Large Cash Transaction,HIGH
+8380e8d0-d5ce-42f4-82bd-3b05fe0caa39,CUST-8636,2024-01-24 12:04:00,26924.78,wire_transfer,KP,Large Cash Transaction,HIGH
+dd47ee87-92a0-47da-9db6-d59d846dee6b,CUST-5293,2024-03-26 11:10:00,20205.39,deposit,US,Large Cash Transaction,HIGH
+d2badfd7-bd28-4777-bc27-4e2c5e644e60,CUST-8723,2024-05-17 23:56:00,14723.15,deposit,US,Large Cash Transaction,HIGH
+4e3792e7-7925-42f5-b171-d9a1b3fa9fb7,CUST-8723,2024-06-08 10:05:00,18827.28,wire_transfer,IR,Large Cash Transaction,HIGH
+f655c3a9-6fc7-4065-83d8-f17f60e31337,CUST-3465,2024-06-20 13:17:00,30954.64,deposit,US,Large Cash Transaction,HIGH
+75e02491-6127-4150-83cc-82f60bdafa4e,CUST-5301,2024-09-11 11:33:00,30689.4,deposit,US,Large Cash Transaction,HIGH
+a011580a-e771-442f-868d-8b7bcc3c38f4,CUST-4550,2024-09-17 00:02:00,44347.7,deposit,US,Large Cash Transaction,HIGH
+a3f59378-a231-467e-a9bd-ae6e1363ed35,CUST-0598,2024-04-12 09:36:00,24612.68,wire_transfer,SY,Large Cash Transaction,HIGH
+1be0c759-bbc9-4187-9e4b-7348de05e0cf,CUST-9340,2024-05-04 14:23:00,19792.27,wire_transfer,KP,Large Cash Transaction,HIGH
+9e275838-244d-4542-a152-672b054f2903,CUST-5726,2024-05-12 05:23:00,15078.1,deposit,US,Large Cash Transaction,HIGH
+f7b9e5cb-e5d8-4b37-96fd-68185f8ce5db,CUST-3985,2024-12-01 13:14:00,13045.05,wire_transfer,KP,Large Cash Transaction,HIGH
+0ce5ba1d-dfb3-4f4b-8016-3b8a853126d2,CUST-9811,2024-10-20 21:46:00,14614.23,deposit,US,Large Cash Transaction,HIGH
+3d371902-6080-41cb-b2bb-0ea7016cdc11,CUST-3766,2024-09-18 11:03:00,29984.9,deposit,US,Large Cash Transaction,HIGH
+ccc90248-5c5b-4b8d-a9ad-de62d49ef1e4,CUST-8594,2024-12-30 18:40:00,13083.72,deposit,US,Large Cash Transaction,HIGH
+6f544950-509d-4382-b7ec-8dba8af42e23,CUST-1355,2024-05-05 05:30:00,8768.26,deposit,US,Structuring,HIGH
+677c9974-81a5-4d33-8901-d1a5c13e4a41,CUST-1355,2024-05-05 03:30:00,9879.42,deposit,US,Structuring,HIGH
+a8948709-6321-414e-8a9f-808517a764f2,CUST-1355,2024-05-05 01:30:00,9045.6,deposit,US,Structuring,HIGH
+13f13c69-d95b-45bd-b39e-4a953301d14c,CUST-1355,2024-05-05 07:30:00,9939.55,deposit,US,Rapid Movement,MEDIUM
+0cf8dc83-998b-4923-be62-582999fb7c28,CUST-1355,2024-05-05 09:30:00,8553.01,deposit,US,Rapid Movement,MEDIUM
