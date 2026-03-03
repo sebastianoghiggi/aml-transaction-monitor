@@ -74,11 +74,3 @@ This project is for educational and portfolio purposes only.
 ```
 
 ---
-
-## Step 4 — Fill in `requirements.txt`
-Open your `requirements.txt` and replace whatever is in it with:
-```
-pandas
-faker
-matplotlib
-seaborn
