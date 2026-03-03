@@ -1,0 +1,84 @@
+# AML Transaction Monitoring System
+
+A Python-based Anti-Money Laundering (AML) transaction monitoring system
+built as a portfolio project. It generates synthetic banking data, stores it
+in a SQL database, runs AML detection rules, and produces a visual HTML report.
+
+## What it does
+- Generates 500+ realistic synthetic bank transactions with planted suspicious patterns
+- Stores and queries data using SQLite (SQL)
+- Detects AML patterns using a rules-based engine:
+  -  Large cash transactions (over $10,000)
+  -  Structuring (multiple deposits just under $10,000 within 24hrs)
+  -  Wire transfers to high-risk/sanctioned countries (Iran, North Korea, Syria)
+  -  Rapid movement (5+ transactions by same customer in one day)
+- Produces a self-contained HTML dashboard with charts and alert tables
+
+## Tech Stack
+- **Python** — core logic and data generation
+- **SQLite** — database storage and SQL querying
+- **Pandas** — data manipulation
+- **Matplotlib / Seaborn** — data visualization
+- **Faker** — synthetic data generation
+
+##  How to run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/sebastianoghiggi/aml-transaction-monitor.git
+cd aml-transaction-monitor
+```
+
+### 2. Create and activate a virtual environment
+```bash
+python -m venv venv
+venv\Scripts\activate        # Windows
+source venv/bin/activate     # Mac/Linux
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the pipeline
+```bash
+python src/generate_data.py      # Generate synthetic transactions
+python src/db_setup.py           # Load into SQLite database
+python src/detection_rules.py    # Run AML detection rules
+python src/report.py             # Generate HTML report
+```
+
+### 5. Open the report
+Open `data/aml_report.html` in your browser.
+
+##  Project Structure
+```
+aml-transaction-monitor/
+├── data/
+│   ├── transactions.csv     # Generated transaction data
+│   └── aml_report.html      # Final HTML dashboard
+├── src/
+│   ├── generate_data.py     # Synthetic data generation
+│   ├── db_setup.py          # Database setup and SQL queries
+│   ├── detection_rules.py   # AML rules engine
+│   └── report.py            # HTML report generation
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+##  Disclaimer
+All data is synthetically generated. No real customer or financial data is used.
+This project is for educational and portfolio purposes only.
+```
+
+---
+
+## Step 4 — Fill in `requirements.txt`
+Open your `requirements.txt` and replace whatever is in it with:
+```
+pandas
+faker
+matplotlib
+seaborn
